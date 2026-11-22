@@ -123,6 +123,8 @@ uv pip install -v -e .
 
 Detailed installation instructions can be found in this [guidance](https://sgl-project.github.io/sglang-omni/get_started/installation.html).
 
+For Windows 11 on an AMD Radeon GPU, use the [Windows + AMD ROCm guide](docs/WINDOWS_AMD.md). It covers the Python 3.12 Conda setup, AMD PyTorch wheels, and both CLI voice cloning and the Gradio interface.
+
 ### CLI
 
 The package installs a `dots.tts` entry point. The examples below use `dots.tts-soar`; replace the model path with any checkpoint in the next section and apply its checkpoint-specific settings.
