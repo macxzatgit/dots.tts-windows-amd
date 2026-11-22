@@ -19,7 +19,7 @@ conda install -c conda-forge pynini -y
 Change to your checkout (adjust the path if needed) and update pip:
 
 ```cmd
-cd /d C:\AI\dots.tts
+cd /d C:\AI\dots.tts-windows-amd
 python -m pip install --upgrade pip
 ```
 
